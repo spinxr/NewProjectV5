@@ -1,0 +1,56 @@
+body {
+    background-image: url(Visuals/Background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+    #Main {
+    background-color: rgba(0, 100, 0, 0.5);
+    display: inline-block;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+
+.maintitle {
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(46, 139, 87);
+}
+.minititle {
+    font-style: italic;
+    font-family: cursive;
+    color: seagreen;
+}
+
+ .item {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: greenyellow;
+    text-decoration-line: underline;
+ }
+ .MiddleD {
+position: absolute;
+top: 17%;
+left: 47%;
+transform: translateX(-50%);
+pointer-events: none;
+ }
+
+ .MiddleF {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+ }
+ .Container {
+    display: flex;
+    gap: 250px;
+ }
+ .group {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+ }
